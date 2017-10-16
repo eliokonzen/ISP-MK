@@ -15,20 +15,10 @@ using tik4net;
 
 namespace CONTROLADORA
 {    
-    class Conexiones
+   public class Conexiones
     {
-        public ITikConnection connection = ConnectionFactory.CreateConnection(TikConnectionType.Api);
-
-
-        public void iniciar()
-        {
-            connection.Open(ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
-
-            var interfaces = connection.LoadAll<Interface>();
-        }
-
-
-
+      
+        
 
     }
 }
