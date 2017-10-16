@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VISTA", "VISTA\VISTA.csproj", "{8063D92A-5784-4BE1-A1FF-CE4B6C4526E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MODELO", "MODELO\MODELO.csproj", "{C111F8AD-39C9-4A83-99AA-984C69E2ECE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CONTROLADORA", "CONTROLADORA\CONTROLADORA.csproj", "{117DE68E-A3E2-40C5-8716-9A01357CAD59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tik4net", "tik4net-master\tik4net\tik4net.csproj", "{15288F76-5A85-418E-87B2-B22265726601}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8063D92A-5784-4BE1-A1FF-CE4B6C4526E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8063D92A-5784-4BE1-A1FF-CE4B6C4526E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8063D92A-5784-4BE1-A1FF-CE4B6C4526E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8063D92A-5784-4BE1-A1FF-CE4B6C4526E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C111F8AD-39C9-4A83-99AA-984C69E2ECE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C111F8AD-39C9-4A83-99AA-984C69E2ECE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C111F8AD-39C9-4A83-99AA-984C69E2ECE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C111F8AD-39C9-4A83-99AA-984C69E2ECE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{117DE68E-A3E2-40C5-8716-9A01357CAD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117DE68E-A3E2-40C5-8716-9A01357CAD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117DE68E-A3E2-40C5-8716-9A01357CAD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117DE68E-A3E2-40C5-8716-9A01357CAD59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15288F76-5A85-418E-87B2-B22265726601}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15288F76-5A85-418E-87B2-B22265726601}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15288F76-5A85-418E-87B2-B22265726601}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15288F76-5A85-418E-87B2-B22265726601}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8ADC10B-0F11-42BA-91BD-C0D392643FB8}
+	EndGlobalSection
+EndGlobal
