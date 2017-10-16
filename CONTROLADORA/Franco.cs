@@ -8,6 +8,7 @@ namespace CONTROLADORA
 {
     class Franco
     {
+        string i;
 
     }
 }
