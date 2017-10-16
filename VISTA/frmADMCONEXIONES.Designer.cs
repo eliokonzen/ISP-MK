@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+<<<<<<< HEAD
             this.dgvCONEXIONES = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -37,6 +38,9 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+=======
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+>>>>>>> Staging-
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -47,6 +51,7 @@
             // 
             // dgvCONEXIONES
             // 
+<<<<<<< HEAD
             this.dgvCONEXIONES.AllowUserToOrderColumns = true;
             this.dgvCONEXIONES.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCONEXIONES.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -63,54 +68,14 @@
             this.dgvCONEXIONES.Size = new System.Drawing.Size(548, 208);
             this.dgvCONEXIONES.TabIndex = 1;
             this.dgvCONEXIONES.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "IP";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Conexion";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 65;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Cliente";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 65;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Plan";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 65;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Ubicacion";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 65;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Estado";
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 65;
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "PPoE";
-            this.Column7.Name = "Column7";
-            this.Column7.Width = 65;
-            // 
-            // Column8
-            // 
-            this.Column8.HeaderText = "Password";
-            this.Column8.Name = "Column8";
-            this.Column8.Width = 65;
+=======
+            this.dataGridView1.AllowUserToOrderColumns = true;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(7, 12);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(548, 208);
+            this.dataGridView1.TabIndex = 1;
+>>>>>>> Staging-
             // 
             // button5
             // 
@@ -161,7 +126,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(567, 261);
+            this.ClientSize = new System.Drawing.Size(575, 261);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -178,6 +143,7 @@
 
         #endregion
 
+<<<<<<< HEAD
         private System.Windows.Forms.DataGridView dgvCONEXIONES;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -187,6 +153,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
+=======
+        private System.Windows.Forms.DataGridView dataGridView1;
+>>>>>>> Staging-
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
