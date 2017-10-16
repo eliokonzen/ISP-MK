@@ -17,11 +17,26 @@ namespace CONTROLADORA
 {
     public class conexionTIK4NET
     {
-          public ITikConnection connection = ConnectionFactory.CreateConnection(TikConnectionType.Api);
+       public ITikConnection connection = ConnectionFactory.OpenConnection(TikConnectionType.Api, ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
+        public static conexionTIK4NET instancia;
+        public static conexionTIK4NET tik4netINSTANCIA()
+        {
+            
 
+            if (instancia== null)
+            {
+
+                instancia = new conexionTIK4NET();
+               // connection.Open(ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
+            }
+            return instancia;
+
+        }
+
+          
+        
         public List<IpAddress> listar()
         {
-            connection.Open(ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
             var ss = connection.LoadList<IpAddress>();
             return ss.ToList<IpAddress>();
         }
