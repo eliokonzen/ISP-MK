@@ -19,7 +19,7 @@ namespace CONTROLADORA
     {
        public ITikConnection connection = ConnectionFactory.OpenConnection(TikConnectionType.Api, ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
         public static conexionTIK4NET instancia;
-        public static conexionTIK4NET tik4netINSTANCIA()
+        public static conexionTIK4NET OBTENER_INSTANCIA()
         {
             
 
@@ -27,21 +27,11 @@ namespace CONTROLADORA
             {
 
                 instancia = new conexionTIK4NET();
-               // connection.Open(ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
+              
             }
             return instancia;
 
         }
-
-          
-        
-        public List<IpAddress> listar()
-        {
-            var ss = connection.LoadList<IpAddress>();
-            return ss.ToList<IpAddress>();
-        }
-        
-
 
     }
 }
