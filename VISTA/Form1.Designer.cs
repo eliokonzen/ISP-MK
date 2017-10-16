@@ -67,6 +67,7 @@
             this.lISTARIPSToolStripMenuItem.Name = "lISTARIPSToolStripMenuItem";
             this.lISTARIPSToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.lISTARIPSToolStripMenuItem.Text = "LISTAR IPS";
+            this.lISTARIPSToolStripMenuItem.Click += new System.EventHandler(this.lISTARIPSToolStripMenuItem_Click);
             // 
             // btnIP
             // 

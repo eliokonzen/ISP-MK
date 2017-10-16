@@ -13,7 +13,7 @@ namespace VISTA
     public partial class frmADMCONEXIONES : Form
     {
 
-        conexionTIK4NET cCONEXION;
+      
         public frmADMCONEXIONES()
         {
             InitializeComponent();
@@ -21,8 +21,8 @@ namespace VISTA
 
         private void frmADMConexiones_Load(object sender, EventArgs e)
         {
-            cCONEXION = conexionTIK4NET.tik4netINSTANCIA();
-            dgvCONEXIONES.DataSource = cCONEXION.listar();
+            Conexiones cCONEXION = new Conexiones();
+            dgvCONEXIONES.DataSource = cCONEXION.listDHCP();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -33,6 +33,16 @@ namespace VISTA
         private void button5_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -19,14 +19,19 @@ namespace VISTA
 
         private void conexionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmADMCONEXIONES frmCONEXIONES = new frmADMCONEXIONES();
-            frmCONEXIONES.Show();
+            
         }
 
         private void btnIP_Click(object sender, EventArgs e)
         {
             frmLISTARIPS frm = new frmLISTARIPS();
             frm.ShowDialog();
+        }
+
+        private void lISTARIPSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmADMCONEXIONES frmCONEXIONES = new frmADMCONEXIONES();
+            frmCONEXIONES.Show();
         }
     }
 }
