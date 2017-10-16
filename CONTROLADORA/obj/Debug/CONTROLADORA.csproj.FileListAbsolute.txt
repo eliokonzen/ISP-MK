@@ -14,3 +14,7 @@ D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csprojResolv
 D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csproj.CoreCompileInputs.cache
 D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.dll
 D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.pdb
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csprojResolveAssemblyReference.cache
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csproj.CoreCompileInputs.cache
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.pdb

@@ -11,3 +11,7 @@ D:\Elio\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.csprojResolveAssemblyRef
 D:\Elio\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
 D:\Elio\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.dll
 D:\Elio\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.pdb
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.csprojResolveAssemblyReference.cache
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.csproj.CoreCompileInputs.cache
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\MODELO\obj\Debug\MODELO.pdb

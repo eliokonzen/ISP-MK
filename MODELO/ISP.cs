@@ -21,5 +21,12 @@
         {
         }
 
+        public virtual DbSet<Cliente> Clientes { get; set; }
+
+        public virtual DbSet<Plan> Planes { get; set; }
+
+        public virtual DbSet<Conexion> Conexiones { get; set; }
+
+
     }
 }
