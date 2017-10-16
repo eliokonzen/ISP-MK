@@ -10,5 +10,6 @@ namespace CONTROLADORA
     {
         string i;
 
+        string b;
     }
 }
