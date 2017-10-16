@@ -54,10 +54,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clientes.cs" />
-    <Compile Include="conexionTIK4NET.cs" />
+    <Compile Include="Mikorotik_conexion.cs" />
     <Compile Include="Conexiones.cs" />
-    <Compile Include="Planes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -65,13 +63,13 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Connected Services\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\MODELO\MODELO.csproj">
       <Project>{c111f8ad-39c9-4a83-99aa-984c69e2ece6}</Project>
       <Name>MODELO</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

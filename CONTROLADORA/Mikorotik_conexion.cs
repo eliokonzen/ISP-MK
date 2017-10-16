@@ -15,18 +15,18 @@ using tik4net;
 
 namespace CONTROLADORA
 {
-    public class conexionTIK4NET
+    public class Mikorotik_conexion
     {
        public ITikConnection connection = ConnectionFactory.OpenConnection(TikConnectionType.Api, ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
-        public static conexionTIK4NET instancia;
-        public static conexionTIK4NET OBTENER_INSTANCIA()
+        public static Mikorotik_conexion instancia;
+        public static Mikorotik_conexion OBTENER_INSTANCIA()
         {
             
 
             if (instancia== null)
             {
 
-                instancia = new conexionTIK4NET();
+                instancia = new Mikorotik_conexion();
               
             }
             return instancia;
