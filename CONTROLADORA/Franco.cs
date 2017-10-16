@@ -9,7 +9,7 @@ namespace CONTROLADORA
     class Franco
     {
         string i;
-
         string b;
+        string c;
     }
 }
