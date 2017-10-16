@@ -17,15 +17,7 @@ namespace CONTROLADORA
 {    
    public class Conexiones
     {
-        public ITikConnection connection = ConnectionFactory.CreateConnection(TikConnectionType.Api);
-
-        public List<IpAddress> listar()
-        {
-            connection.Open(ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
-            var ss = connection.LoadList<IpAddress>();
-            return ss.ToList<IpAddress>();
-        }
-        
+      
         
 
     }

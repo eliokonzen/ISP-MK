@@ -21,8 +21,8 @@ namespace VISTA
         private void btnLISTAR_Click(object sender, EventArgs e)
         {
             Conexiones con = new Conexiones();
-            var res = con.listar();
-            dgvIPS.DataSource = res;
+         //   var res = con.listar();
+            //dgvIPS.DataSource = res;
         }
     }
 }
