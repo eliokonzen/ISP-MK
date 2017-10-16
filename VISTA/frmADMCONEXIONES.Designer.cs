@@ -162,7 +162,7 @@
 
         #endregion
 
-<<<<<<< HEAD
+
         private System.Windows.Forms.DataGridView dgvCONEXIONES;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -172,9 +172,9 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-=======
+
         private System.Windows.Forms.DataGridView dataGridView1;
->>>>>>> Staging-
+
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
