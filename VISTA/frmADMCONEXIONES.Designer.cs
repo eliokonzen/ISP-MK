@@ -29,14 +29,6 @@
         private void InitializeComponent()
         {
             this.dgvCONEXIONES = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -49,52 +41,11 @@
             // 
             this.dgvCONEXIONES.AllowUserToOrderColumns = true;
             this.dgvCONEXIONES.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCONEXIONES.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column8});
-            this.dgvCONEXIONES.Location = new System.Drawing.Point(7, 12);
+            this.dgvCONEXIONES.Location = new System.Drawing.Point(12, 12);
             this.dgvCONEXIONES.Name = "dgvCONEXIONES";
             this.dgvCONEXIONES.Size = new System.Drawing.Size(548, 208);
             this.dgvCONEXIONES.TabIndex = 1;
             this.dgvCONEXIONES.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-            // 
-            // Column1
-            // 
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.Name = "Column7";
-            // 
-            // Column8
-            // 
-            this.Column8.Name = "Column8";
             // 
             // button5
             // 
@@ -104,6 +55,7 @@
             this.button5.TabIndex = 10;
             this.button5.Text = "Salir";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -164,14 +116,6 @@
 
 
         private System.Windows.Forms.DataGridView dgvCONEXIONES;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
 
         private System.Windows.Forms.DataGridView dataGridView1;
 
