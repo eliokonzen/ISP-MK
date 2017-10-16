@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace VISTA
 {
-    public partial class Form1 : Form
+    public partial class frmADDCONEXION : Form
     {
-        public Form1()
+        public frmADDCONEXION()
         {
             InitializeComponent();
-        }
-
-        private void conexionesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            frmADMCONEXIONES frmCONEXIONES = new frmADMCONEXIONES();
-            frmCONEXIONES.Show();
         }
     }
 }
