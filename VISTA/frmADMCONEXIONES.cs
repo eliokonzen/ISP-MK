@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace VISTA
 {
-    public partial class Conexiones : Form
+    public partial class frmADMCONEXIONES : Form
     {
-        public Conexiones()
+        public frmADMCONEXIONES()
         {
             InitializeComponent();
+        }
+
+        private void frmADMConexiones_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
