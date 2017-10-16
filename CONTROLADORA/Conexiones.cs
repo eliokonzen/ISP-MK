@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,34 +14,20 @@ using tik4net.Objects.System;
 using tik4net;
 
 namespace CONTROLADORA
-{
+{    
     class Conexiones
     {
-        private static void CreateOrUpdateAddressList(ITikConnection connection)
+        public ITikConnection connection = ConnectionFactory.CreateConnection(TikConnectionType.Api);
+
+
+        public void iniciar()
         {
-            var existingAddressList = connection.LoadList<FirewallAddressList>(
-                    connection.CreateParameter("list", "TEST-LIST"),
-                    connection.CreateParameter("address", "192.168.1.20"))
-                .SingleOrDefault();
+            connection.Open(ConfigurationManager.AppSettings["host"], ConfigurationManager.AppSettings["user"], ConfigurationManager.AppSettings["pass"]);
 
-            if (existingAddressList == null)
-            {
-                //Create
-                var newAddressList = new FirewallAddressList()
-                {
-                    Address = "192.168.88.1",
-                    List = "TEST-LIST",
-                };
-                connection.Save(newAddressList);
-            }
-            else
-            {
-                //Update
-                existingAddressList.Comment = "Comment update: " + DateTime.Now.ToShortTimeString();
-
-                connection.Save(existingAddressList);
-            }
+            var interfaces = connection.LoadAll<Interface>();
         }
+
+
 
 
     }
