@@ -11,5 +11,6 @@ namespace CONTROLADORA
         string i;
         string b;
         string c;
+        string franco;
     }
 }
