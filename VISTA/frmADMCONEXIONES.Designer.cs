@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.dgvCONEXIONES = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -38,9 +37,6 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-=======
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
->>>>>>> Staging-
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -51,7 +47,6 @@
             // 
             // dgvCONEXIONES
             // 
-<<<<<<< HEAD
             this.dgvCONEXIONES.AllowUserToOrderColumns = true;
             this.dgvCONEXIONES.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvCONEXIONES.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -68,14 +63,38 @@
             this.dgvCONEXIONES.Size = new System.Drawing.Size(548, 208);
             this.dgvCONEXIONES.TabIndex = 1;
             this.dgvCONEXIONES.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
-=======
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(7, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(548, 208);
-            this.dataGridView1.TabIndex = 1;
->>>>>>> Staging-
+            // 
+            // Column1
+            // 
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.Name = "Column5";
+            // 
+            // Column6
+            // 
+            this.Column6.Name = "Column6";
+            // 
+            // Column7
+            // 
+            this.Column7.Name = "Column7";
+            // 
+            // Column8
+            // 
+            this.Column8.Name = "Column8";
             // 
             // button5
             // 
