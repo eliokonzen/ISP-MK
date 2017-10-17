@@ -9,7 +9,7 @@ namespace tik4net.Objects.Interface
     /// /interface
     /// </summary>
     [TikEntity("/interface", IncludeDetails = true)]
-    public class Interface
+    public class Interfaceee
     {
         /// <summary>
         /// .id

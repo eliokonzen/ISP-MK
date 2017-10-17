@@ -18,3 +18,8 @@ C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csp
 C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csproj.CoreCompileInputs.cache
 C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.dll
 C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.pdb
+D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.objects.pdb
+D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.objects.xml
+D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.pdb
+D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.xml
+D:\Elio\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.dll.config

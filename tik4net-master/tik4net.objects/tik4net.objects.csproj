@@ -61,6 +61,7 @@
     <Compile Include="Interface\InterfaceBridge.cs" />
     <Compile Include="Interface\InterfaceEthernet.cs" />
     <Compile Include="Interface\InterfaceWireless.cs" />
+    <Compile Include="Interface\PPPoEServer.cs" />
     <Compile Include="Interface\Wireless\WirelessAccessList.cs" />
     <Compile Include="Interface\Wireless\WirelessRegistrationTable.cs" />
     <Compile Include="Interface\Wireless\WirelessSecurityProfile.cs" />
@@ -95,7 +96,7 @@
     <Compile Include="TikEnumAttribute.cs" />
     <Compile Include="TikListMerge.cs" />
     <Compile Include="TikEntityObjectsExtensions.cs" />
-    <Compile Include="Interface\Interface.cs" />
+    <Compile Include="Interface\Interfaceee.cs" />
     <Compile Include="Ip\Firewall\FirewallFilter.cs" />
     <Compile Include="Ip\Firewall\FirewallMangle.cs" />
     <Compile Include="Ip\Firewall\FirewallNat.cs" />
@@ -123,7 +124,9 @@
       <Name>tik4net</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Interface\PPPoE\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
