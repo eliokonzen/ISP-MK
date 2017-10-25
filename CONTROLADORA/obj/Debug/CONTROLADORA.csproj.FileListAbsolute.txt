@@ -18,3 +18,15 @@ C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csp
 C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.csproj.CoreCompileInputs.cache
 C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.dll
 C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\obj\Debug\CONTROLADORA.pdb
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\CONTROLADORA.dll.config
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\CONTROLADORA.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\CONTROLADORA.pdb
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\EntityFramework.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\MODELO.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\tik4net.objects.dll
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\MODELO.pdb
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\MODELO.dll.config
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\EntityFramework.xml
+C:\Users\Jalinka\Documents\GitHub\ISP-MK\CONTROLADORA\bin\Debug\EntityFramework.SqlServer.xml
